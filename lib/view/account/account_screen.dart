@@ -14,9 +14,9 @@ class AccountScreen extends StatelessWidget {
           children: [
             const SizedBox(
                 height: 20), //Positioning size height of nahiwi nga circle
-            Row(
+            const Row(
               children: [
-                const CircleAvatar(
+                CircleAvatar(
                   backgroundColor: Colors.grey,
                   radius: 36,
                   child: CircleAvatar(
@@ -26,7 +26,7 @@ class AccountScreen extends StatelessWidget {
                 ),
                 SizedBox(width: 10),
                 Column(
-                  children: const [
+                  children: [
                     //Ayha mu display if naay const
                     Text(
                       "Sign in your account",
