@@ -1,4 +1,4 @@
-# my_grocery
+# e-commerce
 
 A new Flutter project.
 
